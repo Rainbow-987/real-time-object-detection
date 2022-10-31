@@ -1,0 +1,17 @@
+canvas {
+
+    animation-name: joker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes joker{
+
+    from{box-shadow: 2px 2px 40px rgba(240, 23, 255, 0.953);}
+
+    to{box-shadow: 2px 2px 40px rgb(123, 217, 233);}
+
+    to{box-shadow: 2px 2px 40px rgb(245, 240, 87);}
+
+}
